@@ -12,3 +12,31 @@
     margin: 0 auto 1.5em;
     line-height: 1.5;
 }
+
+.about a {
+    text-decoration: none;
+}
+.images{
+    border-radius: 100px;
+}
+
+.links {
+    padding: .7em 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.links a {
+    text-decoration: none;
+    background: #222;
+    color: #fff;
+    padding: .7em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+    margin: 10px;
+}
+
+.links a:hover{
+    background-color: #e33d33;
+    color: #222;
+}
